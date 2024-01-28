@@ -1,0 +1,256 @@
+
+@media(orientation: landscape){
+    body{
+        flex-direction: column;
+    }
+    
+}
+@media(orientation: portrait){
+    body{
+        flex-direction: column;
+    }
+    
+}  
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family:  'Playfair Display', serif;
+    overflow: hidden;
+    
+}
+.background1{
+    width: 100vw;
+    height:100vh;
+    object-fit:cover;
+    position: fixed;
+    z-index: -1;
+    background-size:cover ;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.background2{
+    width: 100vw;
+    height:100vh;
+    object-fit:cover;
+    position: fixed;
+    z-index: -1;
+    background-size:cover ;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.background3{
+    width: 100vw;
+    height:100vh;
+    object-fit:cover;
+    position: fixed;
+    z-index: -1;
+    background-size:cover ;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255); opacity: 0.6;
+    width: 100vw;
+    height: 12vh;
+    padding: 5px ; 
+    position: fixed;
+}
+
+.bot
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+
+    width: 100vw;
+    height: 16vh;
+    padding: 5px ;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    size: 10px;
+}
+.bot h3
+{
+    color: #000000;
+    position: relative;
+    text-align: center ;
+
+}
+.bot h2{
+    color: #000000;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    right: 8%;
+}
+.bot p{
+    color: #000000;
+    position: relative;
+    text-align: center;
+}
+
+
+.links{
+    margin-top: 2%;
+    margin-right: 40px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.links a {
+    color: rgb(0, 0, 0);
+    margin-left: 40px; 
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.logo img {
+    width: 16vw; 
+    height: 6vw; 
+    
+}
+
+
+.maintext a{
+    
+    text-decoration: none;
+    padding: 1vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(28, 136, 14);
+    font-size: 33px;
+    border: 0.1vw;
+    text-align: center;
+    position: absolute; 
+    top: 35%; 
+    right: 70%;
+    margin-top: -0.5%;
+    width: 20vw;
+    height:12vw;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.box{
+    display:flex;
+    width: 50vw;
+    padding: 30px;
+    height: 540px;
+    position: absolute;
+    right:-2%;
+    top:10%;
+    border-color: rgb(5, 0, 0);
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.section1{
+    padding:20px;
+    background-color: hsl(0, 0%, 100%);
+    width:20vw;
+    font-family: 'Playfair Display', serif;
+    
+    color:rgb(0, 0, 0);
+    text-align: left;
+}
+.section1 h1{
+    color: green;
+    font-family: 'Playfair Display', serif;
+}
+.section1 p{
+    font-family:  'Playfair Display', serif;
+}
+.section2{
+    padding:20px;
+    background-color:hsl(187, 69%, 81%);
+    width: 20vw;
+    font-family: 'Playfair Display', serif;
+    color:rgb(0, 0, 0);
+    text-align: left;
+    
+    
+}
+.section2 h1{
+    color: green;
+    font-family: 'Playfair Display', serif;
+}
+
+.section3{
+    padding:20px;
+    background-color: hsl(180, 87%, 65%);
+    width:20vw;
+    font-family: 'Playfair Display', serif;
+    color:rgb(0, 0, 0);
+    text-align: left;
+   
+    
+}
+.section3 h1{
+    color: green;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.box2{
+    display: flex;
+    position: absolute;
+    left:10%;
+    bottom: 25%;
+    
+}
+.box2>div{
+    background-color: #f1f1f1;
+  margin: 30px;
+  padding: 4px;
+  font-size: 10px;
+   width: 275px;
+   height:300px;
+   text-align: center;
+}
+.tsection1 h1{
+    color: green;
+}
+.tsection1 p{
+    font-size: 14px;
+}
+.tsection2 h1{
+    color: green;
+}
+.tsection2 h2{
+    font-size: 17px;
+}
+.tsection3 h1{
+    color: green;
+    font-size:22px;
+}
+
+    
+    
+
+.tsection1 img{
+    height: 150px;
+    width:250px;
+}
+.tsection2 img{
+    height:150px;
+    width:250px;
+}
+.tsection3 img{
+    height:150px;
+    width:250px;
+}
+
+
+
+
+
